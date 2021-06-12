@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'open sans';
+	background-color: rgba(0, 0, 128, 0.596);
+}
+
+.info{
+	padding: 70px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.Causas{
+	padding: 70px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.Consecuencias{
+	padding: 70px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.titulo1{
+	color: #000000;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 60px;
+	font-family: 'Londrina Solid', cursive;
+
+}
+.Titulo2{
+	color: #000000;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 60px;
+	font-family: 'Londrina Solid', cursive;
+}
+.Titulo3{
+	color: #000000;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 60px;
+	font-family: 'Londrina Solid', cursive;
+}
+
+header{
+	width: 100%;
+	height: 600px;
+	background: #8A2387;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, hsla(23, 89%, 54%, 0.61), hsla(352, 79%, 58%, 0.685), hsla(302, 60%, 34%, 0.726)), url(../img\ defo3.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, hsla(23, 89%, 54%, 0.61), hsla(352, 79%, 58%, 0.685), hsla(302, 60%, 34%, 0.726)), url(../img\ defo3.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+nav{
+	text-align: center;
+	padding: 30px 50px 0 0;
+	position: fixed;
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 150%;
+}
+
+nav > a{
+	color: #00FFFF;
+	font-weight: 300;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+nav > a:hover{
+	text-decoration: underline;
+}
+header .textos-header{
+	display: flex;
+	height: 430px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Amaranth', sans-serif;
+
+}
+
+.textos-header h1{
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+}
+.wave{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.contenedor-sobre-deforstacion img{
+	width: 410px;
+	border-radius: 5px;
+	float: left;
+	margin-right: 15px;
+}
+.contenedor-sobre-Causas img{
+	width: 410px;
+	border-radius: 5px;
+	float: right;
+	margin-right: 15px;
+}
+.contenedor-sobre-Consecuencias img{
+	width: 410px;
+	border-radius: 5px;
+	float: left;
+	margin-right: 15px;
+}
+.contenedor-sobre-deforstacion{
+	font-size: 20px;
+	line-height: 1.5;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.contenedor-sobre-Causas{
+	font-size: 20px;
+	line-height: 1.5;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.contenedor-sobre-Consecuencias{
+	font-size: 20px;
+	line-height: 2.0;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
